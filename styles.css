@@ -9,7 +9,10 @@
     margin: 0 !important;
     box-sizing: border-box !important;
     font-family: 'Roboto', sans-serif !important;
+    
 }
+
+/*--Navigation--*/
 
 nav{
     height: 80px  !important;
@@ -47,14 +50,126 @@ li{
     
 }
 
+.purple{
+
+    color: #7342d6 !important;
+}
+
 .nav__link{
 
     margin-left: 16px !important;
     text-decoration: none !important;
     font-size: 20px !important;
-    color: purple !important;
+    color:  #7342d6  !important;
+    font-weight: bold !important;
+    padding: 8px !important;
+}
+
+.nav__link:hover{
+
+    text-decoration: underline !important;
+}
+
+.nav__link--primary{
+
+    border: 2px solid #7342d6 !important;
+    border-radius: 4px !important;
+
+
+
+}
+
+.nav__link--primary:hover{
+
+    text-decoration: none !important;
+}
+
+/*--Background--image--*/
+
+#landing{
+
+    background-color: rgba(115, 66, 214, 0.1) !important;
+
 }
 
 
+header{
+
+    height: calc(120vh - 80px)!important;
+}
+
+
+.header__container{
+
+    width: 100% !important;
+    max-width: 720px !important;
+    margin: 0 auto !important;
+    height: 100% !important;
+    
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+img{
+
+    width: 100% !important;
+    height: 100% !important;
+    max-height: 50vh !important;
+}
+
+h1{
+
+    font-size: 56px !important;
+    color: #7342d6  !important;
+    margin-bottom: 24px !important;
+    text-align: center !important;
+}
+
+h2{
+
+    text-align: center !important;
+    font-size: 38px !important;
+    margin-bottom: 32px !important;
+    text-align: center !important;
+}
+
+.btn{
+
+    background-color: #7342d6 !important;
+    color: white !important;
+    padding: 12px 24px !important;
+    font-size: 20px !important;
+    border-radius: 4px  !important;
+    border: none !important;
+
+}
+
+button{
+
+    cursor: pointer !important;
+    margin: 0 auto !important;
+    
+
+}
+
+button:active{
+
+    transform: translateY(1px) !important;
+
+}
+
+
+.header__description{
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.header__img--wrapper{
+
+    padding: 20px !important;
+}
 
 
