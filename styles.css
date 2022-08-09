@@ -12,6 +12,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*--Navigation--*/
 
 nav{
@@ -397,4 +401,52 @@ transform: translateY(100%) rotate(180deg);
 #explore{
 
     background-color: rgba(115, 66, 214, 0.1);
+}
+
+/*--footer--*/
+
+.no-cursor{
+
+    cursor:not-allowed;
+}
+
+footer{
+    background-color: #242424;
+}
+
+.footer__logo--img{
+
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright{
+
+    color: #fff;
+}
+
+.footer__link{
+
+    padding: 0 8px;
+   
+}
+.footer__list{
+
+    margin: 20px 0 24px 0;
+}
+
+.footer__logo{
+
+    display: flex;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+a:hover{
+
+    text-decoration: underline;
 }
