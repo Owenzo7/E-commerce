@@ -328,6 +328,7 @@ transform: translateY(100%) rotate(180deg);
 
     width: 25%;
     padding: 24px;
+    
 }
 
 .book__img--wrapper{
@@ -376,5 +377,11 @@ transform: translateY(100%) rotate(180deg);
     color: #bfbfbf;
 }
 
+
+
+.books{
+
+    flex-wrap: wrap;
+}
 
 
