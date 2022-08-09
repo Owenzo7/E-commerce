@@ -309,6 +309,13 @@ transform: translateY(100%) rotate(180deg);
     overflow-x: hidden;
     }
 
+    /*--Books section--*/
+
+    .book__img{
+
+        max-height: 380px;
+    }
+
 
 
 
