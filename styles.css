@@ -385,3 +385,12 @@ transform: translateY(100%) rotate(180deg);
 }
 
 
+.row__column{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*--Explore--*/
+
