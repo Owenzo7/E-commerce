@@ -298,7 +298,7 @@ transform: translateY(100%) rotate(180deg);
 
     #features{
 
-        background-color: rgba(115, 66, 214, 0.1);
+        background-color: white;
         padding-top: 8vw;
     }
 
@@ -394,3 +394,7 @@ transform: translateY(100%) rotate(180deg);
 
 /*--Explore--*/
 
+#explore{
+
+    background-color: rgba(115, 66, 214, 0.1);
+}
