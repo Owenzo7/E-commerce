@@ -469,9 +469,10 @@ a:hover{
     right: 0;
     bottom: 0;
     z-index: 100;
-    display: flex;
+    
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .btn__menu--close{
@@ -503,5 +504,8 @@ a:hover{
 }
 
 
+.menu--open .menu__backdrop {
 
+    display: flex;
+}
 
