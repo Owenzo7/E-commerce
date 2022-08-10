@@ -205,6 +205,7 @@ padding: 56px 0 ;
  .highlight__wrapper{
 
     display: flex;
+    flex-wrap: wrap;
     
     
 
@@ -215,7 +216,7 @@ padding: 56px 0 ;
     padding:0 24px;
     width: calc(100%/3);
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
 }
@@ -248,6 +249,7 @@ padding: 56px 0 ;
 
     font-size: 20px;
     margin-bottom: 16px;
+    text-align: center;
 
 }
 
@@ -514,6 +516,16 @@ a:hover{
     visibility: visible;
 }
 
+.menu--open{
+
+    max-height: 100vh;
+    overflow-y: hidden;
+
+
+}
+
+/* Small phones , Large Smartphones. */
+
 @media(max-width:550px) {
 
 .nav__links{
@@ -528,3 +540,50 @@ a:hover{
 }
 
 }
+
+
+/* Small phones, tablets, Large Smartphones */
+
+@media (max-width:768px) {
+
+    .header__description{
+
+        padding: 0 24px;
+
+    }
+
+    h1{
+
+        font-size: 40px;
+
+    }
+
+    h2{
+
+        font-size: 26px;
+    }
+
+    button{
+
+        font-size: 18px;
+    }
+
+    .book{
+
+        width: 50%;
+    }
+
+    .highlight{
+
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .highlight:not(:last-child) {
+
+        margin-bottom: 24px;
+    }
+    
+}
+
+
